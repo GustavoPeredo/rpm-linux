@@ -18,7 +18,7 @@ Source2:        cmdline
 %define ktarget  native
 %define kversion %{version}-%{release}.%{ktarget}
 
-BuildRequires: python3-devel depmod kernel-devel make perl-generators perl-interpreter openssl-devel bison bc flex findutils git perl-devel openssl gcc llvm lld clang elfutils-libelf-devel
+BuildRequires: python3-devel kernel-devel make perl-generators perl-interpreter openssl-devel bison bc flex findutils git perl-devel openssl gcc llvm lld clang elfutils-libelf-devel
 
 # don't strip .ko files!
 %global __os_install_post %{nil}
